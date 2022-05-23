@@ -1,0 +1,21 @@
+@media (max-width: 911.98px) {
+    #header .navbar-collapse {
+        margin-left: 15px;
+    }
+    #header .nav-link  {
+        border: none;
+    }
+    #header .nav-link:hover   {
+        border: none;
+    }
+}
+
+
+@media (max-width: 661.98px) {
+    .responsividade {
+        padding: 20px;
+        margin-top: 40px;
+        border-top: 1px solid rgb(121, 121, 121);
+        width: 100%;
+    }
+}
