@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS / fonts -->
     <link rel="shortcut icon" href="assets/Sicons-Basic-Round-Social-Jquery.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,32 +12,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Roboto:wght@400;500;700;900&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;500;700;900&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+    <!-- title -->
     <title>Meu site</title>
   </head>
-  <body>
 
+  <body>
     <!------------------ HEADER ------------------>
-    <div id="header">
-        <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#">
-                  <img src="assets/governo_acre.png" width="160" class="img-fluid" alt="logo-tipo-Acre">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">  <!-- Classe justify-content-end para colocar os items da nav a direita-->
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="#">Página inicial</a>
-                  <a class="nav-link" href="#">Sobre</a>
-                  <a class="nav-link" href="#">Serviços</a>
-                  <a class="nav-link" href="#">Portifólio</a>
-                  <a class="nav-link" href="#">Contato</a>
+    <header>
+      <div id="header">
+          <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/governo_acre.png" width="160" class="img-fluid" alt="logo-tipo-Acre">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">  <!-- Classe justify-content-end para colocar os items da nav a direita-->
+                  <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#">Página inicial</a>
+                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#">Portifólio</a>
+                    <a class="nav-link" href="#">Contato</a>
+                  </div>
                 </div>
-              </div>
-          </nav>
+            </nav>
+          </div>
         </div>
-    </div>
+  </header>
     <!------------------ HEADER ------------------>
     
     <!------------------ MAIN ------------------>
@@ -57,7 +60,6 @@
                 </div>
             </div>
         </section>
-    </main>
 
       <section id="sobre">
         <div class="container">
@@ -72,11 +74,45 @@
                 .</p>
               <a href="#" class="btn btn-primary button button-primary">Entre em contato</a>
             </div>
-          </div>
         </div>
       </section>
+
+      <section>
+        <div class="container mt-4">
+          <div class="row">    
+            <div  class="card mleft" style="width: 16rem;">
+              <img class="card-img-top" src="assets/Desenho-GTA-V-PNG.png" class="img-fluid" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quae pariatur totam facilis accusamus quasi, architecto blanditiis nulla! Magnam reiciendis hic nam reprehenderit quod molestias neque eligendi sint aperiam architecto.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>   
+          </div>            
+        </div>
+      </section>
+    </main>
     <!------------------ MAIN ------------------>
-  
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

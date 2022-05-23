@@ -19,3 +19,26 @@
         width: 100%;
     }
 }
+
+#tamanho {
+    width: 430px;
+}
+
+@media (max-width: 768px) {
+    .mleft {
+        margin-left: 122px;
+        
+    }
+}
+
+
+@media (max-width: 431px) {
+    .mleft {
+        margin-left: 55px;
+        
+    }
+}
+
+.color {
+    color: aqua;
+}

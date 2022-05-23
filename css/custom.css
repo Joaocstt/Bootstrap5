@@ -2,6 +2,8 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 #header {
     width: 100%;  /* Largura de 100% */
     background-color: transparent;
@@ -49,4 +51,26 @@ body, html {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: rgb(12, 0, 121);
+    border-bottom: solid 2px transparent;
+}
+
+
+.nav-link:hover {
+    border-bottom: 2px solid var(--secondary);
+    color: var(--secondary);
+    transition: 1s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 117, 153);
 }
